@@ -30,12 +30,10 @@ map: nv x 3 vertex coordinates of the spherical conformal map
 ===============================================================
 Some possible extensions are also provided (see demo_extension.m):
 - spherical_area_preserving_map: 
-We replace the cotangent Laplacian in our proposed method by the locally authalic Laplacian. 
-Note that this approach aims to reduce the local area distortion, while the global area distortion is not necessarily minimized.
+We replace the cotangent Laplacian in our proposed method by the locally authalic Laplacian. Note that this approach aims to reduce the local area distortion, while the global area distortion is not necessarily minimized.
 
 - iterative_spherical_area_preserving_map:
-We use the above modified method to obtain an initial spherical map, and then solve an energy minimization problem to obtain a more area-preserving map. 
-Again, note that the energy only focuses on minimizing the local area distortion, while the global area distortion is not necessarily minimized.
+We use the above modified method to obtain an initial spherical map, and then solve an energy minimization problem to obtain a more area-preserving map. Again, note that the energy only focuses on minimizing the local area distortion, while the global area distortion is not necessarily minimized.
 
 - mobius_area_correction_spherical:
 We further reduce the global area distortion of a spherical conformal parameterization while maintaining the conformality, using the Mobius area correction method in [2]. 
