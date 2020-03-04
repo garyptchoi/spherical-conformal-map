@@ -5,7 +5,7 @@ function distortion = area_distortion(v,f,map)
 % Input:
 % v: nv x 3 vertex coordinates of a genus-0 triangle mesh
 % f: nf x 3 triangulations of a genus-0 triangle mesh
-% map: nv x 3 vertex coordinates of the mapping result
+% map: nv x 2 or 3 vertex coordinates of the mapping result
 %
 % Output:
 % distortion: 3*nf x 1 area differences
@@ -39,11 +39,12 @@ end
 
 % calculate area of v
 area_v = face_area(f,v);
-v = v*sqrt(4*pi/sum(area_v));
-area_v = face_area(f,v);
-
 % calculate area of map
 area_map = face_area(f,map);
+
+% normalize the total area
+v = v*sqrt(sum(area_map)/sum(area_v));
+area_v = face_area(f,v);
 
 % calculate the area ratio
 distortion = log(area_map./area_v);
