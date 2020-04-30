@@ -12,7 +12,7 @@
 % 
 % Remark:
 % See demo_extension.m to understand how the method can be extended for
-% achieving other effects, e.g. spherical area-preserving map
+% further reducing the area distortion
 % 
 % If you use this code in your own work, please cite the following paper:
 % [1] P. T. Choi, K. C. Lam, and L. M. Lui, 
