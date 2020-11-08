@@ -14,7 +14,7 @@ If you use this code in your own work, please cite the following papers:
     SIAM Journal on Imaging Sciences, 2020.
 
 Copyright (c) 2013-2020, Gary Pui-Tung Choi
-https://scholar.harvard.edu/choi
+https://math.mit.edu/~ptchoi
 
 ===============================================================
 Usage (see demo.m):
