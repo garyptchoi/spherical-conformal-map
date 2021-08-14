@@ -1,6 +1,6 @@
 # Spherical Conformal Map
 
-<img src = "https://github.com/garyptchoi/spherical-conformal-map/blob/master/cover.jpg" height="400" />
+<img src = "https://github.com/garyptchoi/spherical-conformal-map/blob/master/cover.jpg" height="300" />
 
 spherical_conformal_map: Conformally map a genus-0 closed triangle mesh to the unit sphere
 
