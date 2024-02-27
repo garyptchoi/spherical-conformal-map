@@ -19,9 +19,9 @@ If you use this code in your own work, please cite the following papers:
     "[Parallelizable global conformal parameterization of simply-connected surfaces via partial welding.](https://doi.org/10.1137/19M125337X)"
     SIAM Journal on Imaging Sciences, vol.13, no. 3, pp. 1049-1083, 2020.
 
-Copyright (c) 2013-2020, Gary Pui-Tung Choi
+Copyright (c) 2013-2024, Gary Pui-Tung Choi
 
-https://math.mit.edu/~ptchoi
+https://www.math.cuhk.edu.hk/~ptchoi
 
 ===============================================================
 
